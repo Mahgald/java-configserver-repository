@@ -1,3 +1,8 @@
 server:
   port: 8081
   context-path: / 
+
+app:
+  localizacion:
+    latitude: 1385132
+    longitude: 7546357
