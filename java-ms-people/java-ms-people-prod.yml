@@ -1,9 +1,9 @@
 server:
-  port: 8081
+  port: ${PORT:8081}
   context-path: / 
 
 microservices:
   worldmap:
     host: https://java-ms-worldmap.herokuapp.com
-    port: 8082
+    port: ${PORT:8082}
     secure: false    
