@@ -4,6 +4,6 @@ server:
 
 microservices:
   worldmap:
-    host: java-ms-worldmap
+    host: https://java-ms-worldmap.herokuapp.com
     port: 8082
     secure: false    
