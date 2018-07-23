@@ -4,6 +4,6 @@ server:
 
 microservices:
   worldmap:
-    host: java-ms-worldmap
+    host: localhost
     port: 8082
     secure: false    
