@@ -6,4 +6,9 @@ microservices:
   worldmap:
     host: localhost
     port: 8082
-    secure: false    
+    secure: false
+zuul:
+  routes:
+    foos:
+      path: /microservicesPoc/**
+      url: http://localhost:8082/microservicesPoc
