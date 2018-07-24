@@ -3,10 +3,8 @@ server:
   context-path: / 
 
 microservices:
-  worldmap:
-    host: localhost
-    port: 8082
-    secure: false
+  worldmap: 
+    name: java-ms-worldmap
 zuul:
   routes:
     foos:
